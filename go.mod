@@ -1,4 +1,4 @@
-module github.com/RyuaNerin/go-krypto
+module github.com/pedroalbanese/go-krypto
 
 go 1.15
 
