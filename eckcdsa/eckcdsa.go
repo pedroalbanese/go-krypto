@@ -8,8 +8,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/RyuaNerin/go-krypto/internal"
-	"github.com/RyuaNerin/go-krypto/internal/randutil"
+	"github.com/pedroalbanese/go-krypto/internal"
+	"github.com/pedroalbanese/go-krypto/internal/randutil"
 )
 
 var (
