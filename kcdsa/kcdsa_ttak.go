@@ -3,8 +3,8 @@ package kcdsa
 import (
 	"io"
 
-	"github.com/RyuaNerin/go-krypto/internal"
-	"github.com/RyuaNerin/go-krypto/kcdsa/kcdsattak"
+	"github.com/pedroalbanese/go-krypto/internal"
+	"github.com/pedroalbanese/go-krypto/kcdsa/kcdsattak"
 )
 
 // Generate the paramters
