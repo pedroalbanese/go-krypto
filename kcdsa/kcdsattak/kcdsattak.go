@@ -33,9 +33,7 @@ var (
 func PPGF(seed []byte, nBits int, domain Domain) []byte {
 	// p.12
 	// from java
-//	i := ((nBits + 7) & 0xFFFFFFF8) / 8
-//	i := ((nBits + 7) & 0xFFFFFFFFFFFFFFF8) / 8
-	i := int64((int64(nBits) + 7)  & 0xFFFFFFFFFFFFFFF8) / 8
+	i := ((nBits + 7) & 0xFFFFFFF8) / 8
 	
 	iBuf := make([]byte, 1)
 
