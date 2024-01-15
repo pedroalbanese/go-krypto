@@ -8,7 +8,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/RyuaNerin/go-krypto/internal"
+	"github.com/pedroalbanese/go-krypto/internal"
 )
 
 type Domain struct {
